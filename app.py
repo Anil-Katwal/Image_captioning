@@ -259,6 +259,9 @@ if __name__ == '__main__':
         logging.error("Failed to load models. Exiting...")
         exit(1)
     
+    # Get port from environment variable (for Render) or use default
+    port = int(os.environ.get('PORT', 5000))
+    
     logging.info("Starting Flask app...")
-    print("Open your browser and go to: http://localhost:5000")
-    app.run(debug=False, host='0.0.0.0', port=5000) 
+    print(f"Open your browser and go to: http://localhost:{port}")
+    app.run(debug=False, host='0.0.0.0', port=port) 

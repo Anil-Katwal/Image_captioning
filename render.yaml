@@ -11,6 +11,10 @@ services:
         value: app.py
       - key: PYTHONUNBUFFERED
         value: 1
+      - key: PORT
+        value: 10000
+      - key: TF_CPP_MIN_LOG_LEVEL
+        value: 2
     healthCheckPath: /health
     disk:
       - name: uploads
