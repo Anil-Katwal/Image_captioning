@@ -2,17 +2,17 @@
 
 A modern, professional web application that generates descriptive captions for images using advanced deep learning models.
 
-## ✨ Features
+##  Features
 
-- 🖼️ **Drag & Drop Interface**: Intuitive image upload with drag-and-drop functionality
-- 🤖 **AI-Powered Captions**: Uses trained deep learning models for intelligent caption generation
-- 🎨 **Modern UI**: Beautiful, responsive design with smooth animations and glass morphism
-- ⚡ **Fast Performance**: Models are loaded once and cached for optimal performance
-- 📱 **Mobile Responsive**: Perfect experience on desktop and mobile devices
-- 📊 **Real-time Statistics**: Track processing time and image count
-- 🔧 **Professional Structure**: Well-organized codebase with proper separation of concerns
+-  **Drag & Drop Interface**: Intuitive image upload with drag-and-drop functionality
+-  **AI-Powered Captions**: Uses trained deep learning models for intelligent caption generation
+-  **Modern UI**: Beautiful, responsive design with smooth animations and glass morphism
+-  **Fast Performance**: Models are loaded once and cached for optimal performance
+-  **Mobile Responsive**: Perfect experience on desktop and mobile devices
+- **Real-time Statistics**: Track processing time and image count
+-  **Professional Structure**: Well-organized codebase with proper separation of concerns
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Image_caption/
@@ -46,7 +46,7 @@ Image_caption/
 └── computer-and-nlp-project.ipynb  # Original Jupyter notebook
 ```
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -69,7 +69,7 @@ Image_caption/
    # Should show: model.keras, feature_extractor.keras, tokenizer.pkl
    ```
 
-## 🎯 Usage
+##  Usage
 
 ### Running the Flask App
 
@@ -99,7 +99,7 @@ Image_caption/
 - `GET /health` - Health check endpoint
 - `GET /static/images/<filename>` - Serve static images
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Backend (Flask)
 - **Model Management**: Efficient loading and caching of AI models
@@ -115,7 +115,7 @@ Image_caption/
 - **Real-time Feedback**: Progress indicators and error messages
 - **Statistics Dashboard**: Processing time and image count tracking
 
-## 🔧 Configuration
+##  Configuration
 
 ### Environment Variables
 - `UPLOAD_FOLDER`: Directory for temporary uploads (default: `uploads/`)
@@ -125,7 +125,7 @@ Image_caption/
 - `max_length`: Maximum caption length (default: 34 words)
 - `img_size`: Input image size (default: 224x224 pixels)
 
-## 📊 Performance Optimizations
+##  Performance Optimizations
 
 - **Model Caching**: Models loaded once at startup and cached in memory
 - **Async Processing**: Non-blocking image processing and caption generation
@@ -133,7 +133,7 @@ Image_caption/
 - **Memory Management**: Efficient matplotlib backend configuration
 - **Error Recovery**: Graceful error handling and user feedback
 
-## 🛠️ Development
+##  Development
 
 ### Adding New Features
 
@@ -149,7 +149,7 @@ Image_caption/
 - **File Upload**: Change `MAX_CONTENT_LENGTH` in `app.py`
 - **Logging**: Configure logging in `app.py`
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -179,7 +179,7 @@ Image_caption/
 - **Memory Usage**: App uses ~200MB RAM when models are loaded
 - **Processing Time**: Average 2-5 seconds per image
 
-## 📝 Logging
+##  Logging
 
 The application logs all activities to `logs/app.log`:
 - Model loading status
@@ -187,7 +187,7 @@ The application logs all activities to `logs/app.log`:
 - Error messages and debugging info
 - Performance metrics
 
-## 🔒 Security
+##  Security
 
 - **File Validation**: Only image files are accepted
 - **Secure Filenames**: Uploaded files get unique, secure names
@@ -195,7 +195,7 @@ The application logs all activities to `logs/app.log`:
 - **Temporary Storage**: Files are automatically cleaned up
 - **Error Handling**: No sensitive information exposed in errors
 
-## 📱 Browser Compatibility
+##  Browser Compatibility
 
 - Chrome 80+
 - Firefox 75+
@@ -203,7 +203,7 @@ The application logs all activities to `logs/app.log`:
 - Edge 80+
 - Mobile browsers (iOS Safari, Chrome Mobile)
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -211,11 +211,11 @@ The application logs all activities to `logs/app.log`:
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
+##  License
 
 This project is for educational and research purposes.
 
-## 🆘 Support
+##  Support
 
 For issues or questions:
 1. Check the troubleshooting section
@@ -223,7 +223,7 @@ For issues or questions:
 3. Verify all dependencies are installed
 4. Ensure model files are present and accessible
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - [ ] Batch processing for multiple images
 - [ ] Caption editing and customization
