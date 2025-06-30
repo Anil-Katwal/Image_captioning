@@ -1,0 +1,50 @@
+# Git files
+.git
+.gitignore
+
+# Python cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/*.log
+
+# Uploads (will be created at runtime)
+uploads/*
+
+# Jupyter notebooks
+*.ipynb
+
+# Test files
+test_*.py
+
+# Documentation
+README.md
+LICENSE
+
+# Heroku files
+Procfile
+
+# Docker files
+Dockerfile
+.dockerignore
+docker-compose.yml 
